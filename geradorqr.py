@@ -10,6 +10,8 @@ janela = Tk()
 janela.title("Gerador QRCode")
 janela.iconbitmap("icone.ico")
 janela.geometry("600x500+700+300")
+janela.maxsize(600, 500)
+janela.minsize(600, 500)
 frame = Frame(janela, bg="#A7C7E7")
 frame.place(width=2000, height=1100)
 
